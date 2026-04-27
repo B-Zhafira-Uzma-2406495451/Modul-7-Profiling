@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
  * @author muhammad.khadafi
  */
 @Service
-public class DataSeedService {
+public class  DataSeedService {
 
     @Autowired
     private StudentRepository studentRepository;
@@ -28,7 +28,7 @@ public class DataSeedService {
     @Autowired
     private StudentCourseRepository studentCourseRepository;
 
-    private static final int NUMBER_OF_STUDENTS = 20_000;
+    private static final int NUMBER_OF_STUDENTS = 1_000;
     private static final int NUMBER_OF_COURSE = 10;
 
     public void seedStudent() {
